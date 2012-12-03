@@ -1,0 +1,79 @@
+.icon{
+	background: url("../../images/icon-bg.png") 0 0 no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.layout-btn{
+	background-position: 0 0;
+}
+.add-btn{
+	background-position: 0 -50px;
+}
+.all-select-btn{
+	background-position: 0 -100px;
+}
+.list-btn{
+	background-position: 0 -150px;
+}
+.filter-btn{
+	background-position: 0 -200px;
+}
+.delete-btn{
+	background-position: 0 -250px;
+}
+.previous-btn{
+	background-position: 0 -300px;
+}
+.next-btn{
+	background-position: 0 -350px;
+}
+.search-btn{
+	background-position: 0 -400px;
+}
+.edit-btn{
+	background-position: 0 -450px;
+}
+.favorites-btn{
+	background-position: 0 -550px;
+}
+.print-btn{
+	background-position: 0 -497px;
+}
+.layout-btn:hover{
+	background-position: -50px 0;
+}
+.add-btn:hover{
+	background-position: -50px -50px;
+}
+.all-select-btn:hover{
+	background-position: -50px -100px;
+}
+.list-btn:hover{
+	background-position: -50px -150px;
+}
+.filter-btn:hover{
+	background-position: -50px -200px;
+}
+.delete-btn:hover{
+	background-position: -50px -250px;
+}
+.previous-btn:hover{
+	background-position: -50px -300px;
+}
+.next-btn:hover{
+	background-position: -50px -350px;
+}
+.search-btn:hover{
+	background-position: -50px -400px;
+}
+.edit-btn:hover{
+	background-position: -50px -450px;
+}
+.favorites-btn:hover{
+	background-position: -50px -550px;
+}
+.print-btn:hover{
+	background-position: -50px -497px;
+}
