@@ -6,6 +6,10 @@
 @import url("../base/normalize.css");
 @import url("../base/reset-supplement.css");
 @import url("../base/grid.css");
+@import url("../base/common.css");
 @import url("../base/layout.css");
 @import url("../base/icon.css");
-@import url("../base/bootstrap.min.css");
+@import url("../module/button.css");
+@import url("../module/tip.css");
+@import url("../module/imitate-checkbox.css");
+@import url("../module/input.css");

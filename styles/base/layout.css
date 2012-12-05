@@ -4,7 +4,7 @@
  * @createTime : 2012-11-18
  */
 .mod-tool-bar .content a{
-	background: url("../../images/toolbar-bg.png") 0 0 no-repeat;
+	background: url("../../images/toolbar-bg-new.png") 0 0 no-repeat;
 }
 .mod-tool-bar{
  	float: left;
@@ -13,10 +13,11 @@
 }
 .mod-tool-bar header{
 	height: 40px;
+	background: #2a527e url("../../images/tool-bar-header-shadow-bg.png") right 0 repeat-y;
 	line-height: 40px;
 }
 .mod-tool-bar header .title{
-	background-color: #2a527e;
+	width: 100%;
 	text-align: center;
 	font-size: 16px;
 	color: #FFF;
@@ -24,6 +25,7 @@
 .mod-tool-bar .content{
 	height: 753px;
 	background-color: #dfdfdf;
+	background: #dfdfdf url("../../images/tool-bar-shadow-bg.png") right 0 repeat-y;
 	padding: 0 9px 0 10px;
 }
 .mod-tool-bar .content li{
@@ -72,7 +74,7 @@
 .mod-tool-bar footer{
 	height: 41px;
 	border-top: 1px solid #6f6f6f;
-	background-color: #dfdfdf;
+	background: #dfdfdf url("../../images/tool-bar-shadow-bg.png") right 0 repeat-y;
 	line-height: 41px;
 	text-align: center;
 	font-size: 14px;

@@ -7,6 +7,7 @@
 	position: relative;
 	height: 39px;
 	line-height: 40px;
+	background: url("../../images/list-shadow-bg.png") right 0 repeat-y;
 	border-bottom: 1px solid #7f7f7f;
 }
 .mod-file-list header .operate-area{
@@ -99,10 +100,8 @@
 .cell-file .cell-footer .file-date{
 	float: right;
 }
-.mod-file-content header .btn-toolbar{
-	margin: 5px 0 0 0;
-	display: inline-block;
-	vertical-align: middle;
+.mod-file-content header .btn-group{
+	margin: 4px 0 0 0;
 }
 .mod-file-content header .btn-toolbar a:link{
 	text-decoration: none;
@@ -154,6 +153,7 @@
 	left: 163px;
 }
 .sort-box{
+	display: none;
 	position: absolute;
 	top: 32px;
 	left: 125px;
