@@ -24,7 +24,7 @@
 	background-position: 0 -250px;
 }
 .previous-btn{
-	background-position: 0 -300px;
+	background-position: 7px -300px;
 }
 .next-btn{
 	background-position: -50px -350px;
@@ -62,7 +62,7 @@
 	background-position: -50px -250px;
 }
 .previous-btn:hover{
-	background-position: -50px -300px;
+	background-position: -43px -300px;
 }
 .next-btn:hover{
 	background-position: 0 -350px;

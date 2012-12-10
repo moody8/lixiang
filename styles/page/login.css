@@ -39,12 +39,15 @@ body{
 	width: 387px;
 	background-position: 5px -743px;
 }
-.mod-login-box .verification-code{
+.mod-login-box .verification-code-wrap{
 	float: left;
+}
+.mod-login-box .verification-code{
+	
 	margin: 7px 15px 0 0;
 	width: 172px;
 	background-position: 5px -793px;
-	vertical-align: middle;
+	vertical-align: top;
 }
 .mod-login-box .verification-code-box{
 	float: left;

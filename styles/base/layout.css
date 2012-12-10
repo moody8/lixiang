@@ -6,11 +6,6 @@
 .mod-tool-bar .content a{
 	background: url("../../images/toolbar-bg-new.png") 0 0 no-repeat;
 }
-.mod-tool-bar{
- 	float: left;
- 	width: 84px;
- 	height: 835px;
-}
 .mod-tool-bar header{
 	height: 40px;
 	background: #2a527e url("../../images/tool-bar-header-shadow-bg.png") right 0 repeat-y;
@@ -23,7 +18,7 @@
 	color: #FFF;
 }
 .mod-tool-bar .content{
-	height: 753px;
+	height: 678px;
 	background-color: #dfdfdf;
 	background: #dfdfdf url("../../images/tool-bar-shadow-bg.png") right 0 repeat-y;
 	padding: 0 9px 0 10px;
@@ -80,26 +75,45 @@
 	font-size: 14px;
 	color: #9a9a9a;
 }
-.mod-file-list{
- 	float: left;
- 	width: 500px;
- 	height: 835px;
-}
 .mod-file-list header{
 	border-right: 1px solid #aaa;
 }
-.mod-file-list .content,
-.mod-file-content .content{
-	height: 795px;
+.mod-file-list .content{
+	width: 100%;
+	height: 100%;
 	overflow-y: auto;
 }
-.mod-file-content{
- 	float: left;
- 	width: 855px;
- 	height: 835px;
+.mod-file-content .content{
+	height: 100%;
+	overflow-y: auto;
 }
 .mod-file-content header{
 	height: 39px;
 	border-bottom: 1px solid #7f7f7f;
 	text-align: center;
+}
+.layout{
+	width: 100%;
+	min-width: 1280px;
+	max-width: 1420px;
+	position: relative;
+	margin: 0 auto;
+}
+.layout .layout-toolbar{
+	width: 84px;
+	height: 720px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.layout .layout-file-list{
+	width: 450px;
+	height: 720px;
+	position: absolute;
+	top: 0;
+	left: 84px;
+}
+.layout .layout-file-content{
+	height: 720px;
+	margin-left: 534px;
 }

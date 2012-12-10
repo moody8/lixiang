@@ -25,11 +25,6 @@
 .mod-file-list header .paging-area{
 	float: right;
 }
-.paging-area .skip-btn:link{
-	color: #3d3d3d;
-	text-decoration: none;
-	font-size: 14px;
-}
 .file-list .cell-file.current{
 	background-color: #daebfd;
 }
@@ -101,7 +96,7 @@
 	float: right;
 }
 .mod-file-content header .btn-group{
-	margin: 4px 0 0 0;
+	margin: 6px 0 0 0;
 }
 .mod-file-content header .btn-toolbar a:link{
 	text-decoration: none;

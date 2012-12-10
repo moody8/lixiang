@@ -19,9 +19,8 @@
     	<header id="header">
     		<!-- 页头 -->
     	</header>
-    	<div id="content" class="grid-container">
-            <section class="row">
-        		<aside class="mod-tool-bar">
+    	<div id="content" class="layout">
+        		<aside class="mod-tool-bar layout-toolbar">
                     <header><h2 class="title">公文管理</h2></header>
                     <ul class="content">
                         <li><a class="inbox-btn" href="#" title="收件箱"></a></li>
@@ -32,7 +31,7 @@
                     </ul>
                     <footer>工作台</footer>
                 </aside>
-                <div class="mod-file-list">
+                <div class="mod-file-list layout-file-list">
                     <header id="headerContainer" class="clearfix">
                         <div class="operate-area">
                             <a title="操作" class="icon layout-btn" href="#"></a>
@@ -80,7 +79,7 @@
                                         <input type="text" placeholder="搜索内容">
                                     </li>
                                     <li class="button-area">
-                                        <button class="btn btn-primary" type="button">确定</button>
+                                        <button class="btn" type="button">确定</button>
                                         <button class="btn cancel-btn" type="button">取消</button>
                                     </li>
                                 </ul>
@@ -89,7 +88,6 @@
                         <div class="paging-area">
                             <a class="icon previous-btn" href="#" title="上一页"></a>
                             <a class="skip-btn" href="#" title="1">1</a>
-                            <a class="skip-btn" href="#" title="2">2</a>
                             <a class="icon next-btn" href="#" title="上一页"></a>
                         </div>
                     </header>
@@ -241,13 +239,14 @@
                         </div>
                     </div>
                 </div>
-                <article class="mod-file-content">
+                <article class="mod-file-content layout-file-content">
                     <header>
                         <a class="icon edit-btn" href="#" title="编辑"></a>
                         <div class="btn-group">
-                            <a class="btn btn-large active" href="#" title="正文">正文</a>
-                            <a class="btn btn-large" href="#" title="附件">附件</a>
-                            <a class="btn btn-large" href="#" title="参考">参考</a>
+                            <a class="btn active" href="#" title="办公单">办公单</a>
+                            <a class="btn" href="#" title="正文">正文</a>
+                            <a class="btn" href="#" title="附件">附件</a>
+                            <a class="btn" href="#" title="参考">参考</a>
                         </div>
                         <a class="icon favorites-btn" href="#" title="收藏"></a>
                         <a class="icon print-btn" href="#" title="打印"></a>
@@ -256,7 +255,6 @@
                         <img src="../images/demo.gif"/>
                     </div>
                 </article>
-            </section>
     	</div>
     	<footer id="footer">
     		<!-- 页尾 -->

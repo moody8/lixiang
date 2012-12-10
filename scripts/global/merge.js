@@ -14,3 +14,4 @@
 ImportJavascript.url('../scripts/base/jquery-1.7.2.min.js');
 ImportJavascript.url('../scripts/module/imitate-checkbox.js');
 ImportJavascript.url('../scripts/module/tip.js');
+ImportJavascript.url('../scripts/module/placeholder.js');
