@@ -3,21 +3,6 @@
  * @author : panda
  * @createTime : 2012-11-18
  */
-.mod-file-list header{
-	position: relative;
-	height: 39px;
-	line-height: 40px;
-	background: url("../../images/list-shadow-bg.png") right 0 repeat-y;
-	border-bottom: 1px solid #7f7f7f;
-}
-.mod-file-list header .operate-area{
-	float: left;
-	margin-left: 20px;
-}
-.mod-file-list header .operate-area a{
-	margin-right: 14px;
-	
-}
 .mod-file-list header .search-btn{
 	float: right;
 	margin: 12px 20px 0 0;

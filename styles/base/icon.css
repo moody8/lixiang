@@ -41,6 +41,15 @@
 .print-btn{
 	background-position: 0 -547px;
 }
+.up-btn{
+	background-position: 0 -950px;
+}
+.down-btn{
+	background-position: 0 -1003px;
+}
+.transform-btn{
+	background-position: 0 -1046px;
+}
 .layout-btn:hover{
 	background-position: -50px 0;
 }
@@ -79,4 +88,13 @@
 }
 .print-btn:hover{
 	background-position: -50px -547px;
+}
+.up-btn:hover{
+	background-position: -50px -950px;
+}
+.down-btn:hover{
+	background-position: -50px -1003px;
+}
+.transform-btn:hover{
+	background-position: -50px -1046px;
 }

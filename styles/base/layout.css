@@ -66,6 +66,24 @@
 .mod-tool-bar .content .file-cabinet-btn:hover{
 	background-position: -100px -400px;
 }
+.mod-tool-bar .content .organization-management-btn{
+	background-position: 0 -500px;
+}
+.mod-tool-bar .content .organization-management-btn:hover{
+	background-position: -100px -500px;
+}
+.mod-tool-bar .content .user-management-btn{
+	background-position: 0 -600px;
+}
+.mod-tool-bar .content .user-management-btn:hover{
+	background-position: -100px -600px;
+}
+.mod-tool-bar .content .batch-processing-btn{
+	background-position: 0 -700px;
+}
+.mod-tool-bar .content .batch-processing-btn:hover{
+	background-position: -100px -700px;
+}
 .mod-tool-bar footer{
 	height: 41px;
 	border-top: 1px solid #6f6f6f;
@@ -87,7 +105,7 @@
 	height: 100%;
 	overflow-y: auto;
 }
-.mod-file-content header{
+.layout-file-content header{
 	height: 39px;
 	border-bottom: 1px solid #7f7f7f;
 	text-align: center;
@@ -95,7 +113,6 @@
 .layout{
 	width: 100%;
 	min-width: 1280px;
-	max-width: 1420px;
 	position: relative;
 	margin: 0 auto;
 }
@@ -110,10 +127,31 @@
 	width: 450px;
 	height: 720px;
 	position: absolute;
+
 	top: 0;
 	left: 84px;
 }
 .layout .layout-file-content{
 	height: 720px;
 	margin-left: 534px;
+}
+.layout-file-list header .operate-area{
+	float: left;
+	margin-left: 20px;
+}
+.layout-file-list header .operate-area a{
+	margin-right: 14px;
+}
+.layout-file-list header{
+	position: relative;
+	height: 39px;
+	line-height: 40px;
+	background: url("../../images/list-shadow-bg.png") right 0 repeat-y;
+	border-bottom: 1px solid #7f7f7f;
+}
+.layout-file-list .content{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	background: url("../../images/list-shadow-bg.png") right 0 repeat-y;
 }
